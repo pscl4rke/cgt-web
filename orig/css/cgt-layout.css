@@ -1,0 +1,262 @@
+/*
+---------------------------------------
+Project Title : Covent Garden Talks
+Copyright 2006 : bendesmond.com
+Creation date: 10 December 2007
+---------------------------------------
+*/
+
+
+/* Page Setup */
+body {
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	background-color: #626262;
+	margin: 0px;
+	padding: 0px;
+}
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 776px;
+	text-align: left;
+	background: url(../images/cgt-bg.gif) #FFFFFF repeat-y;
+}
+#background {
+	width: 776px;
+	background: url(../images/cgt-header.jpg) no-repeat 0px 0px;
+}
+#page {
+	margin-left: 8px;
+	width: 760px;
+}
+#logo {
+	clear: both;
+	width: 256px;
+	height: 173px;
+	padding: 0px;
+	margin: 0px 0px 0px 506px;
+}
+#sectiontitle {
+	float: right;
+	display: inline;
+	width: 297px;
+	height: 43px;
+	padding: 0px;
+	margin: 14px 20px 0px 0px;
+	text-align: right;
+}
+
+
+/* Main Navigation */
+
+#mainmenu {
+	width: 700px;
+	margin-top: 3px;
+	margin-left: 30px;
+	clear: both;
+}
+#mainmenu ul {
+	margin: 0;
+	padding: 0;
+	height: 34px;
+	font-size: 1em;
+	list-style: none;
+	text-transform: lowercase;
+}
+#mainmenu li {
+	float: left;
+}
+#mainmenu li a {
+	display: block;
+	float: left;
+	padding: 0 10px;
+	line-height: 34px;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: 34px;
+}
+#mainmenu li a:hover {
+	color: #000000;
+	background: url(../images/menu-over-bg.gif) #FFFFFF repeat-x;
+}
+
+
+/* Content */
+#content {
+	display: inline;
+	float: left;
+	width: 430px;
+	margin: 40px 20px 30px 60px;
+}
+#content p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 15px 0px 0px 15px;
+	color: #2A2A2A;
+}
+#content h1 {
+	color: #b1000b;
+	font-size: 1.6em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#content h2 { 
+	clear: both;
+	font-size: 1.2em;
+	display: block;
+	margin: 0px;
+	padding: 0px 5px 0px 5px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #082483;
+}
+#content table {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.4em;
+	color: #2A2A2A;
+	background-color: #E5EBFF;
+	background-position: top;
+	vertical-align: top;
+}
+#content td {
+	vertical-align: top;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C7C7C7;
+}
+.tableheader {
+	background-color: #798FE5;
+	font-weight: bold;
+}
+#content ul {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #2A2A2A;
+	line-height: 1.4em;
+/*	margin-left: 0px;*/
+	list-style-type: none;
+}
+#content li {
+	background: url(../images/bullet.gif) no-repeat 0 4px;
+	padding-left: 20px;
+}
+#content a:link {
+	color: #b1000b;
+	font-weight: bold;
+	text-decoration: none;
+}
+#content a:visited {
+	color: #b1000b;
+	font-weight: bold;
+	text-decoration: none;
+}
+#content a:hover {
+	color: #b1000b;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+hr {
+	height: 1px;
+	border-style: none;
+	color: #4A402A;
+	background-color: #4A402A;
+}
+
+/* Wide Content */
+#widecontent {
+	display: inline;
+	float: left;
+	width: 450px;
+	margin: 40px 30px 30px 40px;
+}
+#widecontent p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 0px;
+	color: #2A2A2A;
+}
+#widecontent a:link {
+	color: #89191C;
+	font-weight: bold;
+	text-decoration: none;
+}
+#widecontent a:visited {
+	color: #89191C;
+	font-weight: bold;
+	text-decoration: none;
+}
+#widecontent a:hover {
+	color: #89191C;
+	font-weight: bold;
+	text-decoration: underline;	
+}
+
+/* Right Column */
+#rightcolumn {
+	display: inline;
+	float: left;
+	width: 210px;
+	margin: 40px 0px 30px 0px;
+	padding: 10px;
+	background-color: #c7c7c7;
+}
+#rightcolumn p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin: 0px;
+	color: #2A2A2A;
+}
+#rightcolumn h1 {
+	color: #b1000b;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#rightcolumn h2 {
+	color: #b1000b;
+	font-size: 1em;
+	font-weight: normal;
+	text-decoration: none;
+	margin-bottom: 0px;
+}
+
+
+/* Footer */
+#footer {
+	margin-top: 20px;
+	width: 776px;
+	clear: both;
+	background: url(../images/cgt-bottom.gif) no-repeat right bottom;
+}
+#footer p {
+	margin: 0px;
+	padding: 10px 40px 20px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	font-size: 0.8em;
+	color: #696969;
+}
+#footer a:link {
+	color: #696969;
+	text-decoration: none;
+}
+#footer a:visited {
+	color: #696969;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #696969;
+	text-decoration: underline;
+}
+
+.smallprint {
+	font-size: 0.8em;
+}
