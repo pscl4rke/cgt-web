@@ -51,13 +51,13 @@ body {
 
 /* Main Navigation */
 
-#mainmenu {
+.mainmenu {
 	width: 700px;
 	margin-top: 3px;
 	margin-left: 30px;
 	clear: both;
 }
-#mainmenu ul {
+.mainmenu ul {
 	margin: 0;
 	padding: 0;
 	height: 34px;
@@ -65,10 +65,10 @@ body {
 	list-style: none;
 	text-transform: lowercase;
 }
-#mainmenu li {
+.mainmenu li {
 	float: left;
 }
-#mainmenu li a {
+.mainmenu li a {
 	display: block;
 	float: left;
 	padding: 0 10px;
@@ -77,7 +77,7 @@ body {
 	text-decoration: none;
 	height: 34px;
 }
-#mainmenu li a:hover {
+.mainmenu li a:hover {
 	color: #000000;
 	background: url(../images/menu-over-bg.gif) #FFFFFF repeat-x;
 }
