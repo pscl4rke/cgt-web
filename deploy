@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+rsync -r "cgt-theme" "$HOME/.gvfs/web on 192.168.2.150/cgt-wp/wp-content/themes"
+
+
