@@ -18,7 +18,15 @@
                 $title = $wp_query->post->post_title;
                 if ($type == 'post') { $title = 'News'; };
                 $boxtitle = $title . " Box";
+                $boxpage = get_page_by_title($boxtitle);
+                if ($boxpage == null) {
+                    echo "NULL";
+                } else {
+                    $boxraw = $boxpage->post_content;
+                    echo apply_filters('the_content', $boxraw);
+                };
             ?>
+            <hr />
             <p>At this point we want to look up whether
             &#8220;<?php echo $boxtitle ?>&#8221; exists,
             and if it does render its contents here.</p>
