@@ -11,9 +11,22 @@
             <?php endwhile; ?>
         </div><!-- end: content -->
 
-		<div id="rightcolumn">
-		  <h1><img src="images/OctaveC.jpg" width="210" height="147" /></h1>
-		  <h1>&nbsp;</h1>
+        <div id="rightcolumn">
+            <?php
+                global $wp_query;
+                $type = $wp_query->post->post_type;
+                $title = $wp_query->post->post_title;
+                if ($type == 'post') { $title = 'News'; };
+                $boxtitle = $title . " Box";
+            ?>
+            <p>At this point we want to look up whether
+            &#8220;<?php echo $boxtitle ?>&#8221; exists,
+            and if it does render its contents here.</p>
+            <p>If it does not we shall presumably have to
+            get some default content from somewhere, or
+            maybe avoid displaying the box at all!</p>
+            <p>It might also be a good idea to prettify
+            the CSS in this box, as it needs some TLC.</p>
         </div><!-- end: rightcolumn -->
 
 <?php get_footer(); ?>
