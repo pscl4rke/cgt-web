@@ -88,7 +88,7 @@ body {
 	display: inline;
 	float: left;
 	width: 430px;
-	margin: 40px 20px 30px 60px;
+	margin: 10px 20px 30px 40px;
 }
 #content p {
 	font-size: 1em;
@@ -215,7 +215,7 @@ hr {
 	display: inline;
 	float: left;
 	width: 210px;
-	margin: 40px 0px 30px 0px;
+	margin: 20px 0px 30px 0px;
 	padding: 10px;
 	background-color: #c7c7c7;
 }
