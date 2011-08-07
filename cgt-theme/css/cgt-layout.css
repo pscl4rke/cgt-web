@@ -96,13 +96,24 @@ body {
 	margin: 15px 0px 0px 15px;
 	color: #2A2A2A;
 }
+#content .notes {
+    color: #b1000b;
+    font-size: 0.8em;
+    margin-top: 0px;
+    padding-top: 0px;
+}
 #content h1 {
 	color: #b1000b;
 	font-size: 1.6em;
 	font-weight: normal;
 	text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
 }
-#content h2 { 
+#content h1 a {
+    font-weight: normal;
+}
+#content h2 {
 	clear: both;
 	font-size: 1.2em;
 	display: block;
