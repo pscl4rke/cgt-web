@@ -17,4 +17,16 @@ See also
   * www.bendesmond.com
   * www.wordpress.org
 
+Overview
+--------
+
+``orig``
+    As much of the old static site that could be recovered
+    through its live server.
+
+``cgt-theme``
+    A WordPress theme.  To be dropped into
+    ``wp-content/themes/`` and selected in the admin
+    panel.
+
 
