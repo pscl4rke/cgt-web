@@ -13,9 +13,10 @@ Desmond, and manipulates it to work as a theme for WordPress.
 See also
 --------
 
-  * www.coventgardentalks.org.uk
-  * www.bendesmond.com
-  * www.wordpress.org
+* www.coventgardentalks.org.uk
+* www.bendesmond.com
+* www.wordpress.org
+
 
 Overview
 --------
@@ -28,5 +29,9 @@ Overview
     A WordPress theme.  To be dropped into
     ``wp-content/themes/`` and selected in the admin
     panel.
+
+``gen``
+    Assorted files used in generating what exists in the
+    rest of the repository.
 
 
