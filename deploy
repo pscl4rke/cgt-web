@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 
+if [ ! -e "$HOME/.gvfs/web on 192.168.2.150/" ]
+then
+    echo "ERROR: please connect 'web on 192.168.2.150' first"
+    exit 1
+fi
+
 rsync -r "cgt-theme" "$HOME/.gvfs/web on 192.168.2.150/cgt-wp/wp-content/themes"
 
 
