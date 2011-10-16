@@ -20,21 +20,12 @@
                 $boxtitle = $title . " Box";
                 $boxpage = get_page_by_title($boxtitle);
                 if ($boxpage == null) {
-                    echo "NULL";
+                    echo "&nbsp;";
                 } else {
                     $boxraw = $boxpage->post_content;
                     echo apply_filters('the_content', $boxraw);
                 };
             ?>
-            <hr />
-            <p>At this point we want to look up whether
-            &#8220;<?php echo $boxtitle ?>&#8221; exists,
-            and if it does render its contents here.</p>
-            <p>If it does not we shall presumably have to
-            get some default content from somewhere, or
-            maybe avoid displaying the box at all!</p>
-            <p>It might also be a good idea to prettify
-            the CSS in this box, as it needs some TLC.</p>
         </div><!-- end: rightcolumn -->
 
 <?php get_footer(); ?>
