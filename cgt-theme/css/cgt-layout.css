@@ -115,15 +115,12 @@ body {
     font-weight: normal;
 }
 #content h2 {
-	clear: both;
+	color: #b1000b;
 	font-size: 1.2em;
-	display: block;
-	margin: 0px;
-	padding: 0px 5px 0px 5px;
-	line-height: 23px;
-	font-weight: bold;
-	color: #FFFFFF;
-	background-color: #082483;
+	font-weight: normal;
+	text-decoration: none;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
 }
 #content table {
 	margin-top: 0px;
@@ -154,12 +151,14 @@ body {
 	color: #2A2A2A;
 	line-height: 1.4em;
 /*	margin-left: 0px;*/
-	list-style-type: none;
+	list-style-type: square;
 }
+/*
 #content li {
 	background: url(../images/bullet.gif) no-repeat 0 4px;
 	padding-left: 20px;
 }
+*/
 #content a:link {
 	color: #b1000b;
 	font-weight: bold;
@@ -174,6 +173,11 @@ body {
 	color: #b1000b;
 	font-weight: bold;
 	text-decoration: underline;	
+}
+#content blockquote {
+}
+#content pre {
+    margin-left: 50px;
 }
 hr {
 	height: 1px;
