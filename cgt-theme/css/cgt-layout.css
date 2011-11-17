@@ -16,6 +16,9 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
+img {
+    border: none;
+}
 #container {
 	margin-left: auto;
 	margin-right: auto;
